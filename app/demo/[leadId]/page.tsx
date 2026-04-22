@@ -119,7 +119,7 @@ export default function DemoPage({ params }: PageProps) {
             marginBottom: '30px',
             filter: 'drop-shadow(0 4px 10px rgba(0,0,0,0.2))',
           }}>
-            {template.style === 'warm-safe' ? '🌿' : '🏙️'}
+            {template.id === 'warm-safe' ? '🌿' : '🏙️'}
           </div>
           <h1 style={{
             fontSize: '3.5rem',
