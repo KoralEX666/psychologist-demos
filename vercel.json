@@ -1,0 +1,7 @@
+{
+  "framework": "nextjs",
+  "installCommand": "pnpm install || npm install",
+  "buildCommand": "next build",
+  "devCommand": "next dev",
+  "outputDirectory": ".next"
+}
