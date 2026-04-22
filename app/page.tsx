@@ -1,3 +1,5 @@
+'use client';
+
 import leadsData from '../leads-db.json';
 
 export default function Home() {
